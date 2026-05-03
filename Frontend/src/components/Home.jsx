@@ -12,7 +12,7 @@ import {
 import { useDispatch } from "react-redux";
 import { setCategory, setMarkAsDone } from "@/redux/expenseSlice";
 import ExpenseTable from "./ExpenseTable";
-import useGetExpenses from "@/hooks/usegetExpenses";
+import useGetExpenses from "@/hooks/useGetExpenses";
 
 const Home = () => {
   useGetExpenses();
