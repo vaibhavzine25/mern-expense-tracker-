@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import Logo from "./shared/logo";
+import Logo from "./shared/Logo";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
