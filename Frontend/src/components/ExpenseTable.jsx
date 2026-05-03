@@ -60,7 +60,7 @@ const ExpenseTable = () => {
 
   const removeExpenseHandler = async(expenseId) =>{
     try {
-      const res = await axios.delete(`http://localhost:8000/api/v1/expense/remove/${expenseId}`,{
+      const res = await axios.delete(`${BASE_URL}/api/v1/expense/remove/${expenseId}`,{
          withCredentials: true,
       });
       if(res.data.success){
